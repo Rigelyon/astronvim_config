@@ -5,7 +5,42 @@
 ---@type LazySpec
 return {
   "AstroNvim/astrocommunity",
-  { import = "astrocommunity.pack.lua" },
+
+  -- bars-and-lines
+  { import = "astrocommunity.bars-and-lines.lualine-nvim" },
+  { import = "astrocommunity.bars-and-lines.smartcolumn-nvim" },
+
+  -- colorscheme
   { import = "astrocommunity.colorscheme.catppuccin" },
-  -- import/override with your plugins folder
+
+  -- comment
+  { import = "astrocommunity.comment.ts-comments-nvim" },
+
+  -- diagnostics
+  { import = "astrocommunity.diagnostics.trouble-nvim" },
+
+  -- editing-support
+  { import = "astrocommunity.editing-support.quick-scope" },
+  { import = "astrocommunity.editing-support.suda-vim" },
+
+  -- pack
+  { import = "astrocommunity.pack.bash" },
+  { import = "astrocommunity.pack.html-css" },
+  { import = "astrocommunity.pack.java" },
+  { import = "astrocommunity.pack.json" },
+  { import = "astrocommunity.pack.lua" },
+  { import = "astrocommunity.pack.markdown" },
+  { import = "astrocommunity.pack.php" },
+  -- { import = "astrocommunity.pack.rust" },
+  { import = "astrocommunity.pack.tailwindcss" },
+  { import = "astrocommunity.pack.typescript" },
+  { import = "astrocommunity.pack.python" },
+
+  -- scrolling
+  { import = "astrocommunity.scrolling.mini-animate" },
+
+  -- utility
+  { import = "astrocommunity.utility.hover-nvim" },
+
+  -- media
 }
